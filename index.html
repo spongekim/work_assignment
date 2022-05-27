@@ -9,13 +9,14 @@
         var data = new google.visualization.DataTable();
         data.addColumn('string', 'From');
         data.addColumn('string', 'To');
+        data.addColumn('number', 'Weight');
         data.addRows([
-          [ 'K', 'X' ],
-          [ 'A', 'Y' ],
-          [ 'A', 'Z' ],
-          [ 'B', 'X' ],
-          [ 'B', 'Y' ],
-          [ 'B', 'Z' ]
+          [ 'K', 'X',  1],
+          [ 'A', 'Y' , 1],
+          [ 'A', 'Z' , 1],
+          [ 'B', 'X' , 1],
+          [ 'B', 'Y' , 1],
+          [ 'B', 'Z' , 1]
         ]);
 
         // Sets chart options.
